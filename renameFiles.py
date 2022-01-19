@@ -1,3 +1,7 @@
+"""
+Use to rename every picture with a serial number
+"""
+
 import os
 
 

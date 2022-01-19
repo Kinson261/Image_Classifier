@@ -1,11 +1,15 @@
+"""
+Use to move images from one directory to another
+"""
+
 import shutil
 import os
 
-source_dir =  'images/fruits/Test/NotApple'
+source_dir = 'images/fruits/Test/NotApple'
 target_dir = 'images/fruits/Test/NotApple/decompressed'
 
-#source_dir = 'images/fruits/Test/NotApple/decompressed'
-#target_dir = 'images/fruits/Test/NotApple'
+# source_dir = 'images/fruits/Test/NotApple/decompressed'
+# target_dir = 'images/fruits/Test/NotApple'
 i = 0
 
 file_names = os.listdir(source_dir)
